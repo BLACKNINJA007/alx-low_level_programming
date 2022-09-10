@@ -10,13 +10,13 @@
 int main(void)
 
 {
-	int n = 0;
+	int i = '0';
 
-	while (n <= 9)
+	while (i <= '9')
 	{
-		putchar(n);
-		n++;
+		putchar(i);
+		i++;
 	}
-	printf("\n");
+	printf('\n');
 	return (0);
 }

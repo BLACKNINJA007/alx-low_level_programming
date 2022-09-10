@@ -11,21 +11,22 @@
 int main(void)
 
 {
-	int n1 = 48;
+	int i;
 
-	int n2;
+	int j;
 
-	int com = 44;
-
-	while (n1 <= 57)
+	for (i = 48; i < 57; i++)
 	{
-		n2 = n1 + 1;
-		while (n2 <= 57)
+		for (j = i + 1; j < 58; j++)
 		{
-			putchar(n1);
-			putchar(32);
+			putchar(i);
+			putchar(j);
+			if (i != 56 || j != 57)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
-		n2 += 1;
 	}
 	putchar('\n');
 	return (0);
