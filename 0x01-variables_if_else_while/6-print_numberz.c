@@ -10,10 +10,12 @@
 int main(void)
 
 {
-	int num;
+	int n;
 
-	for (num = 48 ; num <= 57 ; num++)
-		putchar(num);
+	for (n ='0'; n <='9'; n++)
+	{
+		putchar(n);
+	}
 	printf('\n');
 	return (0);
 }
